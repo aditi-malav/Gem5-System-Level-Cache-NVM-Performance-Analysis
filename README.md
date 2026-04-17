@@ -28,4 +28,4 @@ Developing custom classes in `DRAMInterface.py` to emulate **NV1 (PCM)**, **NV2 
 * **Throughput Comparison:** Measuring the delta in total execution cycles between **DDR4-2400** baselines and NVM configs.
 
 ---
-*Note: This repository is intended for academic research and evaluation within the IIT Guwahati Computer Science department.*
+
