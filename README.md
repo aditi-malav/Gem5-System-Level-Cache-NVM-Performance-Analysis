@@ -2,20 +2,20 @@
 
 This repository contains ongoing implementation and research for analyzing the performance trade-offs between conventional **DRAM** and **Non-Volatile Memory (NVM)** architectures using the **Gem5 Simulator**.
 
-## 🚧 Status: Work in Progress (WIP)
+##  Status: Work in Progress (WIP)
 *Currently under active development for the CS322: Computer Architecture curriculum at IIT Guwahati.*
 
-## 🎯 Project Objective
+## Project Objective
 The goal is to quantify how memory latency affects system-level throughput when executing **SPEC CPU 2017** benchmarks. The project focuses on:
 * Implementing precise **cache hit/miss counting** within specific clock-cycle observation windows.
 * Emulating emerging memory technologies like **PCM (Phase Change Memory)** by overriding hardware timing parameters.
 
-## 🛠️ Technical Stack
+## Technical Stack
 * **Simulator:** Gem5 (v20.1+ / stdlib 23.x)
 * **Languages:** C++ (Core logic), Python (Hardware configuration)
 * **Tools:** Linux, Git, Makefile
 
-## 🧪 Current Implementation Details
+## Current Implementation Details
 
 ### Part A: Cache Hierarchy Analysis (C++)
 Modifying `gem5/src/mem/ruby/structures/CacheMemory.cc` to count demand hits/misses for **L1-I, L1-D, and L2 caches**.
