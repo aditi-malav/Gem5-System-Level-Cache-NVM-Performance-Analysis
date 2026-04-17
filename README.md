@@ -3,7 +3,7 @@
 This repository contains ongoing implementation and research for analyzing the performance trade-offs between conventional **DRAM** and **Non-Volatile Memory (NVM)** architectures using the **Gem5 Simulator**.
 
 ##  Status: Work in Progress (WIP)
-*Currently under active development for the CS322: Computer Architecture curriculum at IIT Guwahati.*
+*Currently under active development for the CS223: Computer Architecture curriculum at IIT Guwahati.*
 
 ## Project Objective
 The goal is to quantify how memory latency affects system-level throughput when executing **SPEC CPU 2017** benchmarks. The project focuses on:
